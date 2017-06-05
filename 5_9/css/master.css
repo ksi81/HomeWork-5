@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+}
+
+div {
+	height: 447px;
+	width: 560px;
+	background-color: #80cdc6;
+	overflow: hidden;
+    position: absolute;
+}
+.clouds {
+position: absolute;
+    top: -8px;
+    left: 213px;
+    height: 125px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.world {
+ position: absolute;
+    top: 93px;
+    z-index: 2;
+    height: 336px;
+    left: -6px;
+}
+.ship {
+    left: 14px;
+    position: absolute;
+    top: 287px;
+    z-index: 3;
+    size: 120%;
+    width: 115px;
+}
+
+.water {
+       left: -7px;
+    position: absolute;
+    top: 393px;
+    z-index: 4;
+    size: 120%;
+    width: 573px;}
+
+.fouter {
+	    background-color: #176c7f;
+    width: 560px;
+    height: 10px;
+    position: absolute;
+    z-index: 5;
+    top: 437px;x;
+}
