@@ -17,10 +17,12 @@
 .red {
   background: red;
    position: absolute;
-  margin: 100px 100px
+  top: 110px;
+  left: 110px
 }
 .yellow {
   background:yellow;
      position: absolute;
-  margin: 200px 200px;
+  top: 209px;
+  left: 209px
 }

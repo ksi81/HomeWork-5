@@ -10,8 +10,9 @@
   height: 150px;
   background: coral;
   position: absolute;
-  margin: 150px 10px 10px 70px;
-  zindex: 1;
+  top: 160px;
+  left: 80px;
+  z-index: 1;
 }
 .roof {
     width: 0;
@@ -20,21 +21,25 @@
     border-right: 110px solid transparent;
     border-bottom: 100px solid red;
   position: absolute;
-  margin: 70px 10px 10px 40px;
+  top: 80px;
+  left: 45px;
+z-index: 3;
 }
 .chimney {
   width: 20px;
   height: 60px;
   background: black;
   position: absolute;
-  margin: 90px 10px 10px 90px;
+  top: 80px;
+  left: 95px;
 }
 .door {
    width: 60px;
   height: 90px;
   background: brown;
   position: absolute;
-  margin: 210px 10px 10px 80px;
+  top: 220px;
+  left: 100px;
   z-index: 2;
 }
 .window {
@@ -42,7 +47,8 @@
   height: 40px;
   background: cyan;
   position: absolute;
-  margin: 210px 10px 10px 150px;
+  top: 220px;
+  left: 170px;
   z-index: 2;
 }
   
